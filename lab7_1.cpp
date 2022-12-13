@@ -46,7 +46,7 @@ int main(){
 	if(func2(x) == func2(y)){
 		cout << "Palindrome: Yes";
 	}else{
-		cout << "Palindrome: No";
+	cout << "Palindrome: No";
 	}
 
     return 0;
