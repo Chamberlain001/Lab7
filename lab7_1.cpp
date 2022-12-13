@@ -43,17 +43,10 @@ int main(){
 
 	x = func1(x);
 	
-	if(y == x){
+	if(func2(x) == func2(y)){
 		cout << "Palindrome: Yes";
 	}else{
-		string z;
-		z = func2(x);
-		x = func2(y);
-		if(z == x){
-			cout << "Palindrome: Yes";
-		}else{
-			cout << "Palindrome: No";
-		}
+		cout << "Palindrome: No";
 	}
 
     return 0;
